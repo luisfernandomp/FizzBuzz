@@ -1,0 +1,16 @@
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.exe
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.deps.json
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.runtimeconfig.json
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.runtimeconfig.dev.json
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.dll
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\ref\DesafioDojo.dll
+C:\Users\HOME\Desktop\DesafioDojo\bin\Debug\net5.0\DesafioDojo.pdb
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.csprojAssemblyReference.cache
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.AssemblyInfoInputs.cache
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.AssemblyInfo.cs
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.csproj.CoreCompileInputs.cache
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.dll
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\ref\DesafioDojo.dll
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.pdb
+C:\Users\HOME\Desktop\DesafioDojo\obj\Debug\net5.0\DesafioDojo.genruntimeconfig.cache
