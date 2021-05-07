@@ -7,42 +7,34 @@ namespace DesafioDojo
     {
         static void Main(string[] args)
         {
-            Pizza pizzas = new Pizza();
-            List<Sabores> PizzaSabor = new List<Sabores>(); 
-            int quantidadePessoas = 0;
-            string[] nome = new string[40];
-            int[] notas = new int[6];
-            string[] p = {"Marguerita", "4 queijos", "Escarola", "Portuguesa", "Frango + Catupiry", "Napolitana"};
-            Console.Clear();
-            Console.Write("Informe a quantidade de pessoas: ");
-            quantidadePessoas = Int32.Parse(Console.ReadLine());
-            for(int j = 0; j < quantidadePessoas; j++){
-                
-                Console.Write($"======= Informe o nome da pessoa {j+1} : ");
-                nome[j] = Console.ReadLine();
-                Console.WriteLine("Notas ===");
-                Console.Write("Marguerita : ");
-                notas[0] = Int32.Parse(Console.ReadLine());
-                Console.Write("4 queijos : ");
-                notas[1] = Int32.Parse(Console.ReadLine());
-                Console.Write("Escarola : ");
-                notas[2] = Int32.Parse(Console.ReadLine());
-                Console.Write("Portuguesa : ");
-                notas[3] = Int32.Parse(Console.ReadLine());
-                Console.Write("Frango + Catupiry : ");
-                notas[4] = Int32.Parse(Console.ReadLine());
-                Console.Write("Napolitana : ");
-                notas[5] = Int32.Parse(Console.ReadLine());
-                for(int z = 0; z < 6; z++) {
-                    pizzas.Sabor.Add(new Sabores{
-                        Nome =  nome[j],
-                        Nota = notas[z],
-                        Sabor = p[z]
-                    });
+        /*
+        FEITO POR LUIS FERNANDO DE MESQUITA PEREIRA
+
+        DESAFIO DOJO
+
+         Números divisíveis por 3 deve aparecer como 'Fizz' ao invés do número;
+         Números divisíveis por 5 devem aparecer como 'Buzz' ao invés do número;
+         Números divisíveis por 3 e 5 devem aparecer como 'FizzBuzz' ao invés do número'.
+        */
+        Console.Clear();
+        for(int i = 1; i < 101; i++){
+            if(i % 5 == 0 && i % 3 == 0){
+                Console.Write("FizzBuzz |");
+            }
+            else{
+                if(i % 3 == 0){
+                    Console.Write("Fizz |");
+                }
+                else{
+                    if(i % 5 == 0){
+                        Console.Write("Buzz |");
+                    }
+                    else{
+                        Console.Write(i + " |");
+                    }
                 }
             }
-            pizzas.Sabor.ForEach(n => Console.WriteLine("Nome: "+n.Nome+", Sabor: " + n.Sabor +", Nota: " + n.Nota));
-            
+        }
         }
     }
 }
